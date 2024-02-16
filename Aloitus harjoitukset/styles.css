@@ -1,7 +1,33 @@
 body {
-    background: lightgray;
+    background: black;
+    color: white;
 }
 
 .red {
     color: red;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+    color: green;
+}
+
+.div_look {
+    border: 2px dotted rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    color: blue;
+}
+
+.ol_look {
+    list-style: lower-alpha;
+}
+
+.ul_look {
+    list-style: square;
 }
