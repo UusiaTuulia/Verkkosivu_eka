@@ -2,29 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ensimmäinen sivu</title>
+    <title>Harjoitus 5B</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <a href="second.html">second.html</a>
-    <header>Tämä on yläotsikko osuus</header>
-    <h1 class="red"> Otsikko 1</h1>
-    <h2>Otsikko 2</h2>
 
-    <p class="red">Kappale 1 ja tähän tekstiä</p>
-    <p><strong>Tämä teksti on <br>vahvennettu</strong></p>
+    <div id="header"><header><h1>Verkkosivujen kehittämisharjoituksia</h1></header></div>
+    
+    <div id="nav">
+        <a href="first.html">first.html</a>
+        <a href="styles.html">styles.html</a>
+        <a href="second.html">second.html</a>
+        <a href="index.html">index.html</a>
+    </div>
+      
+    <div id="article">
+        <h2>Visual Elements and Graphics</h2>
+        <p>Harjoittelemme linkin tekemistä ja kuvien lisäämistä.
+            Lisäämme myös sivulle taustakuvan  / -värin, kehystämme 
+            otsikoita ja tekstiä sekä asetamme marginaaleja </p>
 
-    <ul>
-        <li>Lista 1</li>
-        <li>Lista 2</li>
-        <li>Lista 3</li>
-    </ul>
+        <h3>Linkin tekeminen</h3>
+        <p>Ellet sitten mieluummin karkaa lukemaan:</p>
+        <ul class="ul_look">
+            <li><a href="https://www.iltalehti.fi">Iltalehti</a></li>
+            <li><a href="https://www.is.fi">Ilta Sanomat</a></li>
+            <li><a href="https://www.karkkilalainen.fi/">Karkkilalainen</a></li>
+        </ul>
+    </div>
 
-    <a href="https://laurea.fi">Laurean linkki</a>
-    <img src="cat-8415620_640.webp" alt="">
-
-    <footer>Tämä on alaotsikko</footer>
-
+    <div id="section">
+        <h3>Kuvan lisääminen</h3>
+        <p>Lisäämme kuvan ja skaalaamme sen.</p>
+        <figure>
+            <img src="cat-8415620_640.webp" alt="Piirros kissasta kirjapinon päällä." style="height: 200px; width: 200px;">
+        </figure>
+        <p>Seuraavaksi lisäämme myös kuvatekstin.</p>
+        <figure>
+            <img src="kuva_koira.jpg" alt="Koiran rapsutuksia anova katse" style="height: 200px; width: 300px;">
+            <figcaption>Cavalier kingcharlesinspanieli</figcaption>
+        </figure>
+        <p>Kokeillaan vielä lisätä samaan kuvaan</p>
+            <ul class="ul_look">
+                <li>kuvateksti</li>
+                <li>kehys</li>
+                <li>skaalaus.</li>
+            </ul>
+        <figure>
+            <img src="cat-8415620_640.webp" alt="Musta kissa" style="border: double; 2px; height: 200px; width: 200px;">
+            <figcaption>Kirjoista pitävä kissa</figcaption>
+        </figure>
+    </div>
+    <div id="footer">
+        <footer>Lisää tietoa html-koodista <a href="https://www.w3schools.com/">w3schools</a></footer>
+    </div>
 </body>
 </html>

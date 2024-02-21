@@ -1,7 +1,7 @@
 body {
-    background-image: url(Tausta.jpg);
-    background-color: white;
-    color: black;
+    /* background-image: url(Tausta.jpg); */
+    background-color: black;
+    color: white;
     font-size: large;
     width: 90%;
     margin-left: auto;
@@ -13,60 +13,84 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: x-large;
     border: 6px double rosybrown ;
     padding: 0.5cm;
+    background-color: chocolate;
 }
 
 h2 {
+    margin-left: 0.5em;
+    border: 2px ridge brown;
+    padding: 0.25cm;
+    color: black;
+    background: rosybrown;
+}
+
+h3 {
+    margin-left: 1em;
+    padding: 0.1cm;
     border: 2px ridge brown;
     color: black;
     background: rosybrown;
 }
 
-/*
 p {
+    font-size: large;
+    color: green;
     border: 2px ridge brown;
-    color: black;
-    background: whitesmoke 
+    margin-left: 4em;
+    padding: 1em;
+    background: whitesmoke
 }
-*/
 
 .div_look {
     border: 2px dotted rgb(255, 0, 0);
     width: 100px;
     height: 100px;
-    background: yellow;
-    color: blue;
+  /*  background: yellow;
+    color: blue; */
 }
 
 .ol_look {
     list-style: lower-alpha;
+    margin-left: 4em;
 }
 
 .ul_look {
     list-style: square;
-    color: black;
-    background: whitesmoke
+    margin-left: 4em;
+/*  color: black;
+    background: whitesmoke */
 }
 
 #header {
-    background-color: rgb(218, 196, 255);
+    color: lightblue;
+    border-bottom: 2px solid;
+    margin-bottom: 4px;
+    padding: 2px;
 }
 
 #nav {
-    background-color: rgb(45, 125, 195);
+    background-color: rgb(115, 159, 197);
+    border: 2px solid white;
+    padding: 6px;
 }
 
-#article1 {
+#article {
     background-color: aquamarine;
+    border: 2px solid white;
+    padding: 6px;
 }
 
-#article2 {
-    background-color: aqua;
+#section {
+    background-color: rgb(3, 29, 29);
+    border: 2px solid white;
+    padding: 6px;
 }
 
 #footer {
-    background-color: black;
-    color: green;
+    color: lightblue;
+    border-top: 2px solid;
+    padding: 6px;
 }
