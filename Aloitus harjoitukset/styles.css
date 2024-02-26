@@ -3,7 +3,7 @@ body {
     background-color: black;
     color: white;
     font-size: large;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -12,11 +12,20 @@ body {
     color: red;
 }
 
+.padding {
+    padding-right: 2em;
+}
+
+.padding:hover {
+    background-color: red;
+}
+
 h1 {
     font-size: x-large;
     border: 6px double rosybrown ;
     padding: 0.5cm;
     background-color: chocolate;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -39,8 +48,8 @@ p {
     font-size: large;
     color: green;
     border: 2px ridge brown;
-    margin-left: 4em;
-    padding: 1em;
+    margin-left: 1em;
+    padding: 2px;
     background: whitesmoke
 }
 
@@ -55,6 +64,7 @@ p {
 .ol_look {
     list-style: lower-alpha;
     margin-left: 4em;
+    
 }
 
 .ul_look {
@@ -66,15 +76,20 @@ p {
 
 #header {
     color: lightblue;
-    border-bottom: 2px solid;
-    margin-bottom: 4px;
-    padding: 2px;
+/*    border-bottom: 2px solid; */
+    margin-bottom: 0; 
+    padding-top: 2px;
+    text-align: center;
 }
 
 #nav {
     background-color: rgb(115, 159, 197);
     border: 2px solid white;
     padding: 6px;
+}
+
+#nav a {
+    text-decoration: none;
 }
 
 #article {
@@ -86,11 +101,32 @@ p {
 #section {
     background-color: rgb(3, 29, 29);
     border: 2px solid white;
+    padding: 12px 6px;
+    float: left;
+    width: 70%;
+}
+
+#content {
+    overflow: auto;
+ /*   padding-top: 6px;
+    padding-bottom: 6px;*/
+    background-color: beige;
+}
+
+#links {
+    float: left;
+    width: 28%;
+    background-color: lightgreen;
+    border: 2px solid white;
+}
+
+#links ul { 
+    list-style-type: none;
     padding: 6px;
 }
 
 #footer {
     color: lightblue;
     border-top: 2px solid;
-    padding: 6px;
+    padding-top: 6px;
 }
