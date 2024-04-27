@@ -1,7 +1,13 @@
-h1, h2, h3 {
+h1, h2 {
     font-style: italic;
     color: blueviolet;
     text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+    font-style: italic;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px black;
 }
 
 li {
@@ -60,6 +66,7 @@ tr:hover {
 
 .kuva {
     width: 100%;
+    text-align: center;
 }
 
 .kuva_pienennys {
