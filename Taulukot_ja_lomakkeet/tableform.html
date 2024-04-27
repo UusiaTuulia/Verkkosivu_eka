@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjoitus 10B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="header"><header><h1>Luodaan taulukoita ja lomakkeita</h1></header></div>
+<table>
+    <caption>Kevään opinnot</caption>
+    <tr>
+        <th colspan="3">Oppiaine / Lisätietoa / Deadline</th>
+    </tr>
+    <tr>
+        <td>Työhyvinvointi</td>
+        <td colspan="2">Odottaa arviota</td>
+    </tr>
+    <tr>
+        <td>Kuvankäsittely</td>
+        <td rowspan="2">Valinnaisia</td>
+        <td rowspan="2">Jos jaksaa</td>
+    </tr>
+    <tr>
+        <td>Verkkosivut</td>
+    </tr>
+    <tr>
+        <td>Sosiaaliohjaus kouluissa</td>
+        <td>Paljon tehtäviä</td>
+        <td>22.5.</td>
+    </tr>
+    <tr>
+        <td>Innovatiivinen kehittäminen</td>
+        <td>Done</td>
+        <td>Helmikuu</td>
+    </tr>
+    <tr>
+        <td>?</td>
+        <td>?</td>
+        <td>?</td>
+    </tr>
+</table>
+<br><br>
+<fieldset>
+    <legend>Henkilötietoja</legend>
+    <label for="etunimi">Etunimi:</label><br>
+    <input type="text" id="etunimi" name="etunimi"><br>
+
+    <label for="sukunimi">Sukunimi:</label><br>
+    <input type="text" id="sukunimi" name="sukunimi"><br>
+
+    <label for="ika">Ikä:</label><br>
+    <input type="number" id="ika" min="5" max="25"><br><br>
+    <input type="submit" value="Tallenna"><br>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend>Input textarea (height 4 rows, width 80):</legend>
+    <textarea name="Kirjoitus alue" id="kirjoitus_alue" cols="80" rows="4"></textarea>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend>Valintoja</legend>
+    <p>Valitse päivä:</p>
+    <input type="date"><br>
+    <p>Valitse väri:</p>
+    <input type="color"><br>
+    <p>Valitse vaihtoehdoista (input select list):</p>
+    <select name="vaihtoehtoja" id="vaihtoehtoja">
+        <option value="Valinta">Valitse</option>
+        <option value="1">Hyvä</option>
+        <option value="2">Parempi</option>
+        <option value="3">Paras</option>
+    </select>
+</fieldset>
+<br><br>
+<fieldset>
+    <p>Input checkbox (e.g. Signup for newsletter) + input-type submit:</p>
+    <input type="checkbox" id="tilaa" name="tilaa" value="uutiskirje">
+    <label for="tilaa">Tilaa uutiskirje</label>
+    <input type="submit" value="Submit">
+    <br><hr>
+    <p>Define submit (value) Add new user:</p>
+    <input type="submit" value="Lisää uusi tilaaja">
+</fieldset>
+</body>
+</html>

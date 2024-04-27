@@ -1,0 +1,93 @@
+h1, h2, h3 {
+    font-style: italic;
+    color: blueviolet;
+    text-shadow: 2px 2px 2px black;
+}
+
+li {
+    text-align: left;
+}
+
+table, td, th {
+    border: solid 1px black;
+    padding: 2px;
+    text-align: left;
+}
+
+.navi_tausta {
+    background-color: lemonchiffon;
+    background-image: linear-gradient(to top, lemonchiffon 0%, red 100%);
+    position: fixed;
+    width: 100%;
+}
+
+.navi_ilme {
+    background-color: lemonchiffon;
+}
+
+footer {
+    background-image: linear-gradient(to top, red 0%, lemonchiffon 100%);
+    font-size: large;
+}
+
+fieldset {
+    background-image: linear-gradient(to bottom, lightpink 0%, purple 100%);
+    box-shadow:  3px 3px 3px 5px black, 5px 5px 5px 7px lemonchiffon;
+    text-align: left;
+    padding: 5%;
+  }
+
+tr:first-of-type {
+    background-color: rgb(186, 242, 186);
+}
+
+tr:nth-child(even){
+    background-color: rgb(227, 248, 227);
+}
+
+tr:hover {
+    background-color: #d6ed96;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    border-color: black;
+    background-color: blueviolet;
+}
+
+.kuva {
+    width: 100%;
+}
+
+.kuva_pienennys {
+    width: 70%;
+}
+
+.karuselli_kuva {
+    padding: 10%;
+    border-radius: 15%;
+}
+
+.tarpit_kuva {
+    float: left;
+}
+
+.palaute {
+    color: purple;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    text-shadow: 2px 2px 2px black, 3px 3px 3px white;
+}
+
+.leppis:hover {
+    transition: 2s;
+    position: fixed;
+}
+
+#omakuva {
+    border: 1px solid black;
+    margin: 40px 0px 15px;
+}

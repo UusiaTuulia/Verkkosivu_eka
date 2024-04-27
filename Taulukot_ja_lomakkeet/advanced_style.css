@@ -1,0 +1,60 @@
+#shadow_box {
+    border: 1px solid white;
+    padding: 5px;
+    display: inline-block;
+    background: rgb(119, 26, 26);
+}
+
+.title {
+    color: wheat;
+    margin-bottom: 15px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.box_shadow {
+    box-shadow:  1px 1px 1px inset yellow, 5px 5px 5px 5px blue, 10px 10px 10px 10px red, 15px 15px 15px 25px;
+    margin: 15px;
+}
+
+.text_shadow {
+    text-shadow: 5px 5px 3px black;
+}
+
+#image_box {
+    color: black;
+    border: 1px solid blue;
+    margin: 30px 0px 15px;
+    display: inline-block;
+    background-image: url(Tausta.jpg);
+    background-size: cover;
+}
+
+a:hover {
+    background-color: red;
+    transition: 2s;
+}
+
+body {
+    background-color: rgb(54, 1, 54);
+    color: white;
+}
+
+.linkit {
+    border: 1px solid white;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+  }

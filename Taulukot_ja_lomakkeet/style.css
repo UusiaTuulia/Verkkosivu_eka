@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(224, 253, 224);
+    color: rgb(1, 42, 1);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:first-of-type {
+    background-color: chartreuse;
+}
+
+tr:nth-child(even){
+    background-color: gainsboro;
+}
+
+tr:hover {
+    background-color: #d6ed96;
+}
