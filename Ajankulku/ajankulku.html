@@ -1,18 +1,18 @@
-<!doctype html>
-<html lang="fi">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html> <!-- Tieto selaimelle asiakirjatyypistä -->
+<html lang="fi"> <!-- HTML-kielikoodiviite auttamaan hakukoneita ja selaimia -->
+  <head> <!-- Sisältää meta tietoja -->
+    <meta charset="utf-8"> <!--utf-8 kertoo käytetyn merkistön -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Skaalaa sisällön näytölle sopivaksi -->
 
     <!-- Bootstrap CSS: -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <!-- Oma CSS: -->
     <link rel="stylesheet" href="styles.css">
 
-    <title>UusiaTuulia, Ajankulku - Tietoa, runoja ja piirroksia ajanyksiköistä</title>
+    <title>UusiaTuulia, Ajankulku - Tietoa, runoja ja piirroksia ajanyksiköistä</title> <!-- Näkyy selaimen otsikkorivillä -->
   </head>
-  <body>
+  <body> <!-- HTML-dokumentin sisältö -->
+    <!-- Bootstrap navikointi valikko: -->
     <nav class="navbar navbar-expand-lg navbar-light navi_tausta">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">UusiaTuulia</a>
@@ -34,6 +34,7 @@
         </div>
       </div>
     </nav>
+    <!-- Bootstrap Grid: -->
     <div class="container">
       <div class="row">
         <div class="col-sm center">
@@ -48,8 +49,8 @@
       <hr>
       <div class="row">
         <div class="col-sm-2">
+          <!-- Bootstrapin pystysuora navikointi -->
           <nav class="nav flex-column">
-            <br>
             <div class="kylki_navi">
               <p><strong>Ajankulku</strong></p>
               <a class="nav-link" href="#alkusanat"><strong>Alkusanat</strong></a>
@@ -63,8 +64,7 @@
           </nav>
         </div>
         <div class="col-sm-5 center">
-          <a id="alkusanat"></a>
-          <h1>Alkusanat</h1>
+          <h1 id="alkusanat">Alkusanat</h1>
           <p>Jo ennen muinoin aurinko toimi kellona ja kuu oli kalenteri. 
             Elämää rytmittivät vuodenajat ja niitä tarkensivat kuun vaiheet. 
             Lähdetään nyt yhdessä aikamatkalle, jolla opitaan havainnoimaan aikaa. 
@@ -85,9 +85,7 @@
         <div class="col-sm-2"></div>
         <div class="col-sm-5 center">
           <img class="kuva" src="Kuvat/Tiuku_teksti.jpg" alt="Pidä tiuusta kii, nyt mennään.">
-          <br><br>
-          <a id="vuosi"></a>
-          <h1>Vuosi</h1>
+          <h1 id="vuosi" >Vuosi</h1>
           <p>Suurin käytössä oleva ajan yksikkö on vuosi. Aikaa, joka Maalta kuluu Auringon ympäri kiertämiseen, kutsutaan vuodeksi. Kalenterivuosi jakaantuu 12 kuukauteen. Vuoteen mahtuu 52 kokonaista viikkoa. Vuorokausia vuodessa on 365.</p>
         </div>
         <div class="col-sm-5 center">
@@ -112,18 +110,25 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-5 center">
-          <a id="vuodenajat"></a>
-          <h2>Vuodenajat</h2>
+          <h2 id="vuodenajat">Vuodenajat</h2>
           <p>Ilmastomme vaihtelee vuoden aikana. Meillä on neljä vuodenaikaa: talvi, kevät, kesä ja syksy. Vuodenaika voidaan todeta luonnossa tapahtuvien ilmiöiden perusteella.</p>
           <p>Vuodenajat voidaan myös määritellä tähtitieteen, lämpötilan tai kalenterikuukausien mukaan. Vuodenajan alkaminen, kesto ja päättyminen riippuu siis sekä käytettävästä määritelmästä että kuinka etelässä tai pohjoisessa tarkkailemme asiaa.</p>
-            </div>
+        </div>
         <div class="col-sm-5 center">
-          <img class="kuva" src="Kuvat/Vuosi_vaaka.jpg" alt="">
+          <figure>
+            <img class="kuva" src="Kuvat/Vuosi_vaaka.jpg" alt="">
+            <figcaption><strong>Talvipäivänseisaus</strong> on joulun alla. <strong>Kesäpäivänseisaus</strong> on juhannuksen tienoilla. 
+              Talvipäivänseisauksesta kesäpäivänseisaukseen päivän valoisa-aika lisääntyy. Kesäpäivänseisauksesta talvipäivänseisaukseen päivä puolestaan lyhenemään.
+              <strong>Kevätpäiväntasaus</strong> on maaliskuun lopulla. <strong>Syyspäiväntasaus</strong> on syyskuun lopulla. 
+              Tasauksien hetkellä yö ja päivä ovat lähes yhtä pitkät.
+            </figcaption>
+          </figure>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-10">
+          <!-- Bootstrap kuvakaruselli: -->
           <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -207,8 +212,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-10 center">
-          <a id="aikaansaa_vuodenajat"></a>
-          <h3>Mikä aikaansaa vuodenajat?</h3>
+          <h3 id="aikaansaa_vuodenajat">Mikä aikaansaa vuodenajat?</h3>
           <p>Vuodenajat johtuvat siitä, että Maa kiertää Aurinkoa kallellaan. Maa pysyy koko ajan kallellaan samaan suuntaan, Pohjoisnapa osoittaa aina Pohjantähteen. Riippuen missä vaiheessa kiertovuotta Maa on, saadaan pohjoiselle pallonpuoliskolle eri määrä Auringon säteilyä. Auringon säteilyn määrän vaihtelu aiheuttaa ne ilmastolliset muutokset, jotka tunnemme vuodenaikoina.</p>
           <p>Talvella pohjoinen pallonpuolisko on kallistunut poispäin Auringosta. Tällöin Auringon säteilyä pääsee meille vain vähän. Lisäksi Auringon säteily kohtaa pohjoisen pallonpuoliskon hyvin viistossa kulmassa, puhutaan, että Aurinko paistaa matalalta. Matalalta paistavan auringon huomaa pitkistä varjoista. Matalalta paistaessa Aurinko lämmittää vähemmän, ensinnäkin koska Auringon säteily kulkee pitkän matkan ilmakehän lävitse ja säteily heikkenee ennen kuin kohtaa maanpinnan. Toisekseen Auringon säteily levittäytyy laajalle alueelle.
              Pohjoisen pallonpuoliskon kevät etenee, kun Maa etenee kiertoradallaan, ja Auringon säteilyä osuu koko ajan enemmän pohjoiselle pallonpuoliskolle.</p>
@@ -227,28 +231,36 @@
           <p>Pohjantähti osoittaa aina pohjoiseen, joten sitä voidaan käyttää navigoinnin apuna.</p>
         </div>
         <div class="col-sm-5 center">
-          <img class="kuva" src="Kuvat/Napapiirit.jpg" alt="Maapallo voidaan jakaa Pohjois- ja Etelänanavan välillä kerroksiin. Ne ovat Pohjoinen napapiiri, Ravun kääntöpiiri, Päiväntasaaja, Kauriin kääntöpiiri ja Eteläinen napapiiri.">
+          <figure>
+            <img class="kuva" src="Kuvat/Napapiirit.jpg" alt="">
+            <figcaption>Pohjois- ja Etelänanavan välillä nimetyt leveyspiirit ovat Pohjoinen napapiiri, Ravun kääntöpiiri, Päiväntasaaja, Kauriin kääntöpiiri ja Eteläinen napapiiri.</figcaption>
+          </figure>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-5 center">
-          <a id="tahti_vuodenajat"></a>
-          <h3>Tähtitieteelliset vuodenajat</h3>
+          <h3 id="tahti_vuodenajat">Tähtitieteelliset vuodenajat</h3>
           <p>Talvipäivänseisauksesta alkaa tähtitieteellinen talvi. Talvipäivänseisauksen aikaan päivä on pohjoisella pallonpuoliskolla lyhyimmillään, Aurinko ei edes nouse pohjoisen napapiirin pohjoispuolella, siellä on kaamos.</p>
           <p>Tähtitieteellinen kevät alkaa kevätpäiväntasauksesta. Kevätpäiväntasauksen hetkellä Auringon säteilyä tulee yhtä paljon pohjoiselle ja eteläiselle pallonpuoliskolle.</p>
           <p>Kesäpäivänseisauksesta alkaa tähtitieteellinen kesä. Kesäpäivänseisauksen aikana päivä on pohjoisella pallonpuoliskolla pisimmillään, Aurinko ei edes laske pohjoisen napapiirin pohjoispuolella, siellä on yötön yö.</p>
           <p>Tähtitieteellinen syksy alkaa syyspäiväntasauksesta. Syyspäiväntasauksen hetkellä Auringon säteilyä tulee taas yhtä paljon pohjoiselle ja eteläiselle pallonpuoliskolle.</p>
         </div>
         <div class="col-sm-5 center">
-          <img class="kuva" src="Kuvat/Tasaukset.jpg" alt="Kevätpäiväntasauksen aikaan, aurinko paistaa saman verran pohjoiselle ja eteläiselle pallonpuoliskolle. Kevätpäiväntasauksesta kohden Kesäpäivänseisausta edettäessä, pohjoisnapa on koko ajan enemmän kohti aurinkoa. Kesäpäivänseisauksesta kohden Syyspäiväntasausta edettäessä, pohjoisnapa puolestaan loittonee auringosta. Syyspäiväntasauksen aikaan aurinko paistaa taas yhtä paljon pohjoiselle ja eteläiselle pallonpuoliskolle. Talvipäivänseisauksen aikaan, pohjoisnapa on eniten poispäin auringosta. Talvipäivänseisauksesta kohden Kevätpäiväntasausta edettäessä, alkaa etelänapa loittonemaan auringosta.">
+          <figure>
+            <img class="kuva" src="Kuvat/Tasaukset.jpg" alt="">
+            <figcaption><strong>Kesäpäivänseisauksen</strong> hetkellä pohjoisnapa on eniten aurinkoon päin. 
+              Kesäpäivänseisauksesta kohden Talvipäivänseisausta, pohjoisnapa loittonee auringosta.
+              <strong>Talvipäivänseisauksen</strong> aikaan pohjoisnapa on eniten poispäin auringosta.
+              Talvipäivänseisauksesta Kesäpäivänseisaukseen edettäessä, puolestaan etelänapa loittonee auringosta.
+            </figcaption>
+          </figure>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-5 center">
-          <a id="termiset_vuodenajat"></a>
-          <h3>Termiset vuodenajat</h3>
+          <h3 id="termiset_vuodenajat">Termiset vuodenajat</h3>
           <p>Termiset vuodenajat määritellään lämpötilan mukaan. Vuodenaika vaihtuu, kun vuorokauden keskilämpötila, noin kymmeneltä vuorokaudelta, ohittaa tietyt raja-arvot.</p>
             <ul>
               <li>Talvi alkaa, kun vuorokauden keskilämpötila on alle 0 astetta.</li>
@@ -264,21 +276,20 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-5 center">
-          <a id="kuukausi_vuodenajat"></a>
-          <h3>Vuodenaikoihin kuuluvat kuukaudet</h3>
+          <h3 id="kuukausi_vuodenajat">Vuodenaikoihin kuuluvat kuukaudet</h3>
           <p>Usein jokaiseen vuodenaikaan ajatellaan kuuluvan kolme täysimittaista kuukautta. 
             Vuodenaikojen jakoa kuukausiin hankaloittaa se, että etelämpänä kevät ja kesä alkavat 
             pohjoista aikaisemmin ja vastaavasti syksy ja talvi alkavat pohjoisessa etelää aiemmin.</p>
         </div>
         <div class="col-sm-5 center">
-          <p><strong>Mitä pidit Ajankulusta?</strong><br> Haluatko lukea pidemmälle?</p>
+          <p><strong>Haluatko lukea Ajankulkua pidemmälle?</strong></p>
           <a href="ota_yhteytta.html" class="btn btn-primary">Ota yhteyttä!</a>
           <p>Jatkoa odotellessa</p>
           <a href="pihalla.html" class="btn btn-primary">Tavataan Pihalla</a>
         </div>
       </div>
     </div>
-    <footer>
+    <footer> <!-- Alapalkki: -->
       <div class="center">
         <p>Verkostoidu kanssani
           <a href="https://www.linkedin.com/in/tuulia-nyman">LinkedIn</a>:ssä.
