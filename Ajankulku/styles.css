@@ -52,14 +52,12 @@ footer {
 }
 
 .navi_tausta {
-    background-color: lemonchiffon;
     background-image: linear-gradient(to top, lemonchiffon 0%, crimson 100%);
     position: fixed;
     width: 100%;
 }
 
 .kylki_navi {
-    background-color: rgb(252, 249, 223);
     background-image: linear-gradient(to top, white 0%, lemonchiffon 100%);
 }
 
