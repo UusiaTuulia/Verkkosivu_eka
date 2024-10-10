@@ -133,6 +133,7 @@ footer {
   background-image: linear-gradient(to top, #abadb0 0%, #333 100%);
   padding: 10px 0px 30px 30px;
   color: white;
+  font-size: 18px;
 }
 
 @media only screen and (min-width: 480px) {
