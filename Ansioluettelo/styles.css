@@ -1,0 +1,218 @@
+/* Add a black background color to the top navigation */
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  nav a {
+    float: none;
+    display: block;
+    color:  #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  nav a:hover {
+    background-color: #9b9a9a;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  nav a.active {
+    background-color: #c9c8c8;
+    color: black;
+  }
+
+body {
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(Kuvat/etusivu.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.kokemus {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(Kuvat/kokemus.jpg);
+}
+
+.koulutus {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(Kuvat/koulutus.jpg);
+}
+
+.taidot
+{
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(Kuvat/taidot.jpg);
+}
+
+.harrastukset
+{
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(Kuvat/harrastukset.jpg);
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding: 50px 10px 0px 10px;
+  margin-top: 0px;
+}
+
+h2 {
+  color: #333;
+}
+.sitaatti {
+  text-align: center;
+  color: #d3fca4;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0px 10px 50px 10px;
+  margin-bottom: 0px;
+}
+
+.column2 {
+  float: none;
+  width: 100%;  
+}
+
+.column3 {
+  float: none;
+  width: 100%;
+}
+
+section {
+  padding: 0px 20px 0px 20px;
+}
+
+.alenna {
+  margin-top: 0%;
+}
+
+img {
+  padding: 0px 20px 0px 20px;
+  max-width: 90%;
+}
+
+.kuvapallo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.fontti {
+  font-size: 14px;
+}
+
+td {
+  padding: 0px 0px 0px 30px;
+}
+
+table {
+  padding: 0px 0px 20px 0px;
+}
+
+footer {
+  background-image: linear-gradient(to top, #abadb0 0%, #333 100%);
+  padding: 10px 0px 30px 30px;
+  color: white;
+}
+
+@media only screen and (min-width: 480px) {
+
+  nav a {
+    float: left;
+  }
+
+  h1 {
+    font-size: 30px;
+    padding: 60px 10px 0px 10px;
+  }
+
+  .sitaatti {
+    font-size: 30px;
+    padding: 0px 10px 60px 10px;
+  }
+
+  .fontti {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 864px) {
+
+
+  h1 {
+    font-size: 50px;
+    padding: 70px 10px 0px 10px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .sitaatti {
+    font-size: 50px;
+    padding: 0px 10px 70px 10px;
+  }
+
+  .column2 {
+    float: left;
+    width: 50%;  
+  }
+  
+  .column3 {
+    float: left;
+    width: 33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .alenna {
+    margin-top: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 0px 70px 0px 70px;
+  }
+
+  h1 {
+    font-size: 55px;
+    padding: 90px 10px 0px 10px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .sitaatti {
+    font-size: 55px;
+    padding: 0px 10px 90px 10px;
+  }
+
+}
